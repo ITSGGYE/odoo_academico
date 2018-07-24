@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="1_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Abarth</field><field name="origen">USA</field></record>
+        <record id="2_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Alfa Romeo</field><field name="origen">JAPON</field></record>
+        <record id="3_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Aro</field><field name="origen">USA</field></record>
+        <record id="4_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Asia</field><field name="origen">ALEMANIA</field></record>
+        <record id="5_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Asia Motors</field><field name="origen">BRASIL</field></record>
+        <record id="6_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Aston Martin</field><field name="origen">ITALIA</field></record>
+        <record id="7_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Audi</field><field name="origen">USA</field></record>
+        <record id="8_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Austin</field><field name="origen">JAPON</field></record>
+        <record id="9_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Auverland</field><field name="origen">USA</field></record>
+        <record id="10_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Bentley</field><field name="origen">ALEMANIA</field></record>
+        <record id="11_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Bertone</field><field name="origen">BRASIL</field></record>
+        <record id="12_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Bmw</field><field name="origen">ITALIA</field></record>
+        <record id="13_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Cadillac</field><field name="origen">USA</field></record>
+        <record id="14_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Chevrolet</field><field name="origen">JAPON</field></record>
+        <record id="15_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Chrysler</field><field name="origen">USA</field></record>
+        <record id="16_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Citroen</field><field name="origen">ALEMANIA</field></record>
+        <record id="17_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Corvette</field><field name="origen">BRASIL</field></record>
+        <record id="18_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Dacia</field><field name="origen">ITALIA</field></record>
+        <record id="19_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Daewoo</field><field name="origen">USA</field></record>
+        <record id="20_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Daf</field><field name="origen">JAPON</field></record>
+        <record id="21_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Daihatsu</field><field name="origen">USA</field></record>
+        <record id="22_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Daimler</field><field name="origen">ALEMANIA</field></record>
+        <record id="23_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Dodge</field><field name="origen">BRASIL</field></record>
+        <record id="24_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Ferrari</field><field name="origen">ITALIA</field></record>
+        <record id="25_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Fiat</field><field name="origen">USA</field></record>
+        <record id="26_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Ford</field><field name="origen">JAPON</field></record>
+        <record id="27_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Galloper</field><field name="origen">USA</field></record>
+        <record id="28_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Gmc</field><field name="origen">ALEMANIA</field></record>
+        <record id="29_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Honda</field><field name="origen">BRASIL</field></record>
+        <record id="30_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Hummer</field><field name="origen">ITALIA</field></record>
+        <record id="31_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Hyundai</field><field name="origen">USA</field></record>
+        <record id="32_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Infiniti</field><field name="origen">JAPON</field></record>
+        <record id="33_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Innocenti</field><field name="origen">USA</field></record>
+        <record id="34_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Isuzu</field><field name="origen">ALEMANIA</field></record>
+        <record id="35_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Iveco</field><field name="origen">BRASIL</field></record>
+        <record id="36_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Iveco-pegaso</field><field name="origen">ITALIA</field></record>
+        <record id="37_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Jaguar</field><field name="origen">USA</field></record>
+        <record id="38_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Jeep</field><field name="origen">JAPON</field></record>
+        <record id="39_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Kia</field><field name="origen">USA</field></record>
+        <record id="40_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Lada</field><field name="origen">ALEMANIA</field></record>
+        <record id="41_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Lamborghini</field><field name="origen">BRASIL</field></record>
+        <record id="42_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Lancia</field><field name="origen">ITALIA</field></record>
+        <record id="43_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Land-rover</field><field name="origen">USA</field></record>
+        <record id="44_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Ldv</field><field name="origen">JAPON</field></record>
+        <record id="45_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Lexus</field><field name="origen">USA</field></record>
+        <record id="46_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Lotus</field><field name="origen">ALEMANIA</field></record>
+        <record id="47_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Mahindra</field><field name="origen">BRASIL</field></record>
+        <record id="48_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Maserati</field><field name="origen">ITALIA</field></record>
+        <record id="49_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Maybach</field><field name="origen">USA</field></record>
+        <record id="50_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Mazda</field><field name="origen">JAPON</field></record>
+        <record id="51_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Mercedes-benz</field><field name="origen">USA</field></record>
+        <record id="52_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Mg</field><field name="origen">ALEMANIA</field></record>
+        <record id="53_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Mini</field><field name="origen">BRASIL</field></record>
+        <record id="54_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Mitsubishi</field><field name="origen">ITALIA</field></record>
+        <record id="55_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Morgan</field><field name="origen">USA</field></record>
+        <record id="56_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Nissan</field><field name="origen">JAPON</field></record>
+        <record id="57_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Opel</field><field name="origen">USA</field></record>
+        <record id="58_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Peugeot</field><field name="origen">ALEMANIA</field></record>
+        <record id="59_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Pontiac</field><field name="origen">BRASIL</field></record>
+        <record id="60_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Porsche</field><field name="origen">ITALIA</field></record>
+        <record id="61_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Renault</field><field name="origen">USA</field></record>
+        <record id="62_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Rolls-royce</field><field name="origen">JAPON</field></record>
+        <record id="63_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Rover</field><field name="origen">USA</field></record>
+        <record id="64_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Saab</field><field name="origen">ALEMANIA</field></record>
+        <record id="65_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Santana</field><field name="origen">BRASIL</field></record>
+        <record id="66_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Seat</field><field name="origen">ITALIA</field></record>
+        <record id="67_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Skoda</field><field name="origen">USA</field></record>
+        <record id="68_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Smart</field><field name="origen">JAPON</field></record>
+        <record id="69_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Ssangyong</field><field name="origen">USA</field></record>
+        <record id="70_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Subaru</field><field name="origen">ALEMANIA</field></record>
+        <record id="71_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Suzuki</field><field name="origen">BRASIL</field></record>
+        <record id="72_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Talbot</field><field name="origen">ITALIA</field></record>
+        <record id="73_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Tata</field><field name="origen">USA</field></record>
+        <record id="74_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Toyota</field><field name="origen">JAPON</field></record>
+        <record id="75_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Umm</field><field name="origen">USA</field></record>
+        <record id="76_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Vaz</field><field name="origen">ALEMANIA</field></record>
+        <record id="77_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Volkswagen</field><field name="origen">BRASIL</field></record>
+        <record id="78_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Volvo</field><field name="origen">ITALIA</field></record>
+        <record id="79_marca_vehiculo" model="test.vehiculo_marca"><field name="name">Wartburg</field><field name="origen">USA</field></record>
+
+        <record id="1_parte_vehiculo" model="test.vehiculo_partes"><field name="name">Motor</field></record>
+        <record id="2_parte_vehiculo" model="test.vehiculo_partes"><field name="name">Transmisión</field></record>
+        <record id="3_parte_vehiculo" model="test.vehiculo_partes"><field name="name">Chasis</field></record>
+        <record id="4_parte_vehiculo" model="test.vehiculo_partes"><field name="name">Llanta</field></record>
+
+
+    </data>
+</odoo>

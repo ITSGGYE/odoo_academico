@@ -1,0 +1,55 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="tree_vehiculo">
+      <field name="name">tree_vehiculo</field>
+      <field name="model">test.vehiculo</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="color"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="form_vehiculo">
+      <field name="name">form_vehiculo</field>
+      <field name="model">test.vehiculo</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <field name="color"/>
+              <field name="marca"/>
+              <field name="marca_ids" widget="many2many_tags"/>
+              <field name="detalle_line">
+                  <tree editable="bottom">
+                    <field name="parte"/>
+                    <field name="serie"/>
+                    <field name="estado"/>
+                    <field name="responsable"/>
+                  </tree>
+               </field>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="action_vehiculo">
+      <field name="name">action_vehiculo</field>
+      <field name="res_model">test.vehiculo</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+    <!-- Top menu item -->
+    <menuitem name="Vehículo" id="menu_root_vehiculo" action="action_vehiculo"/>
+
+
+  </data>
+</odoo>
